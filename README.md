@@ -1,9 +1,3 @@
-# 🎨 Lovable Theme System
-
-A fully functional, beautiful theme system for your dashboard, built with care and designed to offer instant visual feedback, smart dark mode handling, and seamless user experience.
-
----
-
 
 ## 💻 Getting Started
 
