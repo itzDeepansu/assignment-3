@@ -1,73 +1,99 @@
-# Welcome to your Lovable project
+# 🎨 Lovable Theme System
 
-## Project info
+A fully functional, beautiful theme system for your dashboard, built with care and designed to offer instant visual feedback, smart dark mode handling, and seamless user experience.
 
-**URL**: https://lovable.dev/projects/9b61d712-5412-4305-8633-13c861c63b0b
+---
 
-## How can I edit this code?
 
-There are several ways of editing your application.
+## 💻 Getting Started
 
-**Use Lovable**
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/itzDeepansu/assignment-3
+   cd assignment-3
+1. Install Dependencies:
+   ```bash
+   npm install
+1. Start Development Server:
+   ```bash
+   npm run dev
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/9b61d712-5412-4305-8633-13c861c63b0b) and start prompting.
 
-Changes made via Lovable will be committed automatically to this repo.
+Each theme adapts to dark/light mode, ensuring consistency and accessibility.
 
-**Use your preferred IDE**
+---
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+## 🚀 First Version Features
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+- 📱 **Responsive Sidebar Navigation**  
+  Collapsible sidebar that adapts to mobile and desktop layouts
 
-Follow these steps:
+- 📊 **Dashboard Overview**  
+  View key metrics with summary cards and chart snapshots
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+- 📋 **Advanced Data Tables**  
+  Includes sorting, filtering, and pagination
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+- 📈 **Interactive Charts**  
+  Supports bar, line, and pie charts for data visualization
 
-# Step 3: Install the necessary dependencies.
-npm i
+- 📅 **Calendar View**  
+  Manage events with drag-and-drop calendar functionality
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+- 🗂️ **Kanban Board**  
+  Organize tasks using a fully draggable kanban interface
 
-**Edit a file directly in GitHub**
+- 🎨 **Theme Customization**  
+  Choose from multiple themes with live previews
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+- 🌀 **Smooth Animations**  
+  Transitions and interactions feel natural and polished
 
-**Use GitHub Codespaces**
+---
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+## 🖌️ Design Approach
 
-## What technologies are used for this project?
+- 🧼 **Clean, Modern Interface**  
+  Subtle shadows, rounded corners, and clean typography
 
-This project is built with:
+- 🎨 **Professional Color Palette**  
+  Based on semantic tokens for consistency across components
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+- 🖱️ **Interactive UI**  
+  Smooth hover states and micro-interactions for better UX
 
-## How can I deploy this project?
+- 🧱 **Responsive Layouts**  
+  Grid-based structure adapts well across screen sizes
 
-Simply open [Lovable](https://lovable.dev/projects/9b61d712-5412-4305-8633-13c861c63b0b) and click on Share -> Publish.
+- 📊 **Beautiful Chart Visualizations**  
+  Data is displayed using visually appealing, readable charts
 
-## Can I connect a custom domain to my Lovable project?
+---
 
-Yes, you can!
+## ⚙️ How It Works
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+The theme system is powered by a custom `useTheme` React hook that:
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+- Dynamically updates CSS custom properties (`--color-primary`, `--bg`, etc.)
+- Manages current theme and dark mode state
+- Persists preferences to `localStorage`
+- Applies changes instantly across the app (e.g. sidebar, cards, buttons, and text)
+
+---
+
+## 🧑‍💻 Code Structure
+
+- `src/hooks/useTheme.ts` – Core logic for managing and applying themes
+- `src/pages/Themes.tsx` – UI for selecting and previewing themes
+
+---
+
+
+## 🌈 Available Themes
+
+1. **Default**
+2. **Ocean Blue**
+3. **Forest Green**
+4. **Sunset Orange**
+5. **Royal Purple**
+6. **Monochrome**
